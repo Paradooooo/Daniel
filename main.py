@@ -5,7 +5,8 @@ from sklearn.ensemble import RandomForestClassifier
 import streamlit as st
 import pandas as pd
 import joblib
-
+from sklearn.ensemble import RandomForestClassifier
+from sklearn import datasets
 st.write('''
 # Application pour la prévision de fraude
 ''')
